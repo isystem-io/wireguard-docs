@@ -24,10 +24,10 @@ module.exports  = ctx => ({
   theme: '@vuepress/vue',
   themeConfig: {
         logo: '/images/logo.png',
-        repo: 'https://github.com/isystem.io/wireguard-docs',
-        repoLabel: 'Gitlab',
+        repo: 'https://github.com/isystem-io/wireguard-docs',
+        repoLabel: 'Github',
         editLinks: true,
-        docsRepo: 'https://github.com/isystem.io/wireguard-docs',
+        docsRepo: 'https://github.com/isystem-io/wireguard-docs',
         docsDir: 'docs',
         docsBranch: 'master',
         locales: {
@@ -118,7 +118,7 @@ function getRootSidebar (groupName, introduction) {
           'aws-account-registration',
           'create-aws-instance',
           'connection-to-instance',
-          'installing-and-using-wireguard',
+          'configure-wireguard',
           'configure-vpn-clients',
           'check-the-installation-of-vpn',
         ]

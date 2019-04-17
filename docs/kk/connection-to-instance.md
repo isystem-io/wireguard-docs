@@ -1,0 +1,1 @@
+# 3. AWS danasına qosılıñız

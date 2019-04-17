@@ -1,0 +1,1 @@
+# 2. AWS danasın jasañız

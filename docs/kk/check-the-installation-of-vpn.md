@@ -1,0 +1,1 @@
+# 6. VPN ornatılımın tekseriñiz

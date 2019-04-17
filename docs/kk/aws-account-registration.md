@@ -1,0 +1,1 @@
+# 1. AWS tirkelgisin tirkew

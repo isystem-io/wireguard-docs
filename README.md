@@ -1,2 +1,3 @@
 # wireguard-docs
-Wireguard VPN Documentation
+Documentation for Free Wireguard VPN service on AWS
+
