@@ -1,1 +1,1 @@
-# 4. Wireguard ornatw jäne paydalanw
+# 4. Wireguard konfïgwracïyalaw

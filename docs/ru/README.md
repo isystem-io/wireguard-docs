@@ -19,7 +19,7 @@
 1. [Регистрация бесплатного аккаунта AWS](aws-account-registration)
 2. [Создание инстанса AWS](create-aws-instance)
 3. [Подключение к инстансу AWS](connection-to-instance)
-4. [Установка и использование Wireguard](configure-wireguard)
+4. [Конфигурирование Wireguard](configure-wireguard)
 5. [Конфигурирование VPN клиентов](configure-vpn-clients)
 6. [Проверка корректности установки VPN](check-the-installation-of-vpn)
 
