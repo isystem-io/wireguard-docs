@@ -86,12 +86,10 @@ module.exports  = ctx => ({
             serviceWorker: true,
             updatePopup: true
             }],
-            ['@vuepress/medium-zoom', true],
-        /*  
+            ['@vuepress/medium-zoom', true], 
             ['@vuepress/google-analytics', {
-              ga: 'UA-128189152-1'
+              ga: 'UA-138588888-1'
             }],
-        */
         ],
         extraWatchFiles: [
             '.vuepress/navbar/ru.js',
