@@ -25,3 +25,4 @@
 
 ## Полезные ссылки
 * [Скрипты автоматической установки Wireguard на AWS](https://github.com/isystem-io/wireguard-aws)
+* [Обсуждение на Habr.com](https://habr.com/ru/post/448528/#comments)
