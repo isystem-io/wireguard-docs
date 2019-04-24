@@ -10,6 +10,8 @@ Everyone has the right to freedom of opinion and expression; this right includes
 
 The following is the detailed 6 steps instruction for non-IT people to deploy free* [VPN service](https://ru.bmstu.wiki/VPN_(Virtual_Private_Network)) upon [Wireguard](https://www.wireguard.com/) technology in [Amazon Web Services (AWS) cloud infrastructure](https://aws.amazon.com/ru/), using a 12 months free account, on an Instance (virtual machine) run by Ubuntu Server 18.04 LTS. 
 
+I tried to make this walkthrough as friendly as possible to people far from IT. The only thing required is assiduity in repeating the steps described below.
+
 ::: tip Note
 * AWS offers [free usage tier](https://aws.amazon.com/ru/free/faqs/) for a period of 12 months limited to 15 GB of traffic monthly.
 :::

@@ -26,7 +26,7 @@
 ## Полезные ссылки
 * [Скрипты автоматической установки Wireguard на AWS](https://github.com/isystem-io/wireguard-aws)
 * [Обсуждение на Habr.com (RU)](https://habr.com/ru/post/448528/#comments)
-* [Обсуждение на Habr.com (EN)]()
+* [Обсуждение на Habr.com (EN)](https://habr.com/en/post/449234/#comments)
 
 ## Авторы
 * [Alexey Chernyavskiy](https://github.com/alexey-chernyavskiy)
