@@ -5,15 +5,15 @@ module.exports  = ctx => ({
             title: 'Wireguard VPN',
             description: 'Free Wireguard VPN service on AWS',
         },
-        '/ru/': {
-            lang: 'ru-RU',
-            title: 'Wireguard VPN',
-            description: 'Бесплатный VPN сервис Wireguard на AWS'
-        },
         '/kk/': {
             lang: 'kk-KZ',
             title: 'Wireguard VPN',
             description: 'AWS-te tegin Wireguard VPN qızmeti'
+        },
+        '/ru/': {
+            lang: 'ru-RU',
+            title: 'Wireguard VPN',
+            description: 'Бесплатный VPN сервис Wireguard на AWS'
         }
     },
   head: [ 
@@ -47,6 +47,22 @@ module.exports  = ctx => ({
                   '/en/': getRootSidebar('Wireguard VPN', 'Description'),
                 },        
             },
+            '/kk/': {
+                label: 'Qazaqşa',
+                selectText: 'Tilder',
+                editLinkText: 'Github-da öñdew',
+                lastUpdated: 'Soñğı jañartw',
+                serviceWorker: {
+                    updatePopup: {
+                    message: "Jaña mazmun bar.",
+                    buttonText: "Jañartw"
+                    }
+                },
+                nav: require('./navbar/kk'),
+                sidebar: {
+		              '/kk/': getRootSidebar('Wireguard VPN', 'Qısqaşa sïpattaması'),
+                },        
+           },       
             '/ru/': {
                 label: 'Русский',
                 selectText: 'Языки',
@@ -63,22 +79,6 @@ module.exports  = ctx => ({
                   '/ru/': getRootSidebar('Wireguard VPN', 'Краткое описание'),
                 },        
             },
-            '/kk/': {
-                label: 'Qazaqşa',
-                selectText: 'Tilder',
-                editLinkText: 'Github-da öñdew',
-                lastUpdated: 'Soñğı jañartw',
-                serviceWorker: {
-                    updatePopup: {
-                    message: "Jaña mazmun bar.",
-                    buttonText: "Jañartw"
-                    }
-                },
-                nav: require('./navbar/kk'),
-                sidebar: {
-		              '/kk/': getRootSidebar('Wireguard VPN', 'Qısqaşa sïpattaması'),
-                },        
-           }       
         },
         plugins: [
             ['@vuepress/back-to-top', true],
@@ -93,8 +93,8 @@ module.exports  = ctx => ({
         ],
         extraWatchFiles: [
             '.vuepress/navbar/en.js',
-            '.vuepress/navbar/ru.js',
             '.vuepress/navbar/kk.js',
+            '.vuepress/navbar/ru.js',
         ],
         markdown: {
             // options for markdown-it-anchor
