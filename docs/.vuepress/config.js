@@ -1,14 +1,14 @@
 module.exports  = ctx => ({
     locales: {
         '/': {
-            lang: 'ru-RU',
-            title: 'Wireguard VPN',
-            description: 'Бесплатный VPN сервис Wireguard на AWS'
-        },
-        '/en/': {
             lang: 'en-US',
             title: 'Wireguard VPN',
             description: 'Free Wireguard VPN service on AWS',
+        },
+        '/ru/': {
+            lang: 'ru-RU',
+            title: 'Wireguard VPN',
+            description: 'Бесплатный VPN сервис Wireguard на AWS'
         },
         '/kk/': {
             lang: 'kk-KZ',
@@ -32,22 +32,6 @@ module.exports  = ctx => ({
         docsBranch: 'master',
         locales: {
             '/': {
-                label: 'Русский',
-                selectText: 'Языки',
-                editLinkText: 'Отредактировать в Github',
-                lastUpdated: 'Последнее обновление',
-                serviceWorker: {
-                    updatePopup: {
-                    message: "Доступен новый контент.",
-                    buttonText: "Обновить"
-                    }
-                },
-                nav: require('./navbar/ru'),
-                sidebar: {
-                  '/ru/': getRootSidebar('Wireguard VPN', 'Краткое описание'),
-                },        
-            },
-            '/en/': {
                 label: 'English',
                 selectText: 'Languages',
                 editLinkText: 'Edit this page on Github',
@@ -61,6 +45,22 @@ module.exports  = ctx => ({
                 nav: require('./navbar/en'),
                 sidebar: {
                   '/en/': getRootSidebar('Wireguard VPN', 'Description'),
+                },        
+            },
+            '/ru/': {
+                label: 'Русский',
+                selectText: 'Языки',
+                editLinkText: 'Отредактировать в Github',
+                lastUpdated: 'Последнее обновление',
+                serviceWorker: {
+                    updatePopup: {
+                    message: "Доступен новый контент.",
+                    buttonText: "Обновить"
+                    }
+                },
+                nav: require('./navbar/ru'),
+                sidebar: {
+                  '/ru/': getRootSidebar('Wireguard VPN', 'Краткое описание'),
                 },        
             },
             '/kk/': {
@@ -92,8 +92,8 @@ module.exports  = ctx => ({
             }],
         ],
         extraWatchFiles: [
-            '.vuepress/navbar/ru.js',
             '.vuepress/navbar/en.js',
+            '.vuepress/navbar/ru.js',
             '.vuepress/navbar/kk.js',
         ],
         markdown: {

@@ -1,7 +1,7 @@
 <script>
 module.exports = {
   created(){
-    this.$router.push('/ru/')
+    this.$router.push('/en/')
   }
 }
 </script>
