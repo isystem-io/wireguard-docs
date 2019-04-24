@@ -27,7 +27,7 @@ I tried to make this walkthrough as friendly as possible to people far from IT. 
 ## Useful links
 * [Scripts for Wireguard automated installation on AWS.](https://github.com/isystem-io/wireguard-aws)
 * [Discussion on Habr.com (RU)](https://habr.com/ru/post/448528/#comments)
-* [Discussion on Habr.com (EN)]()
+* [Discussion on Habr.com (EN)](https://habr.com/en/post/449234/#comments)
 
 ## The authors
 * [Alexey Chernyavskiy](https://github.com/alexey-chernyavskiy)
